@@ -1,4 +1,4 @@
-♻️ Waste Segregation & Classification System
+# ♻️ Waste Segregation & Classification System
 
 A smart web app to help users classify and segregate household waste. The system identifies waste types like food, paper, plastic, glass, and organic waste and provides clear disposal instructions, promoting responsible waste management.
 
@@ -18,10 +18,6 @@ A smart web app to help users classify and segregate household waste. The system
 
 You'll need Node.js (v18+) and MongoDB. Then:
 
-# Clone the repository
-git clone https://github.com/yourusername/waste-segregation.git
-cd waste-segregation/backend
-
 # Install backend dependencies
 npm install
 
@@ -38,7 +34,7 @@ Backend runs on http://localhost:5000
 
 Frontend runs on http://localhost:5173
 
-📝 How to use
+# 📝 How to use
 
 Type the name of a waste product in the input field
 
@@ -52,7 +48,7 @@ Type the name of a waste product in the input field
 
 --> Disposal instructions
 
-🛠 Customizing Waste Data
+# 🛠 Customizing Waste Data
 
 Edit the seedData.js file to add new waste items:
 
@@ -82,7 +78,7 @@ export const defaultCategories = [
   },
 ];
 
-💻 Tech Stack
+# 💻 Tech Stack
 
 --> Backend: Node.js, Express, MongoDB, Mongoose
 
@@ -92,7 +88,7 @@ export const defaultCategories = [
 
 --> Data Storage: MongoDB for waste categories and keywords
 
-⚠️ Note
+# ⚠️ Note
 
 This app is for educational purposes and suggested disposal guidance only.
 
