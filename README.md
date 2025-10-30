@@ -1,0 +1,1 @@
+# waste_segrartion_management
